@@ -1,8 +1,31 @@
 \documentclass[a4paper]{article}
 
 \usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{amssymb}
+\usepackage{mathptmx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
 
-%\geometry{margin=1in}
+\titleformat{\section}{\Large\scshape}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\bfseries\large}{\hspace{-1.2em}$\blacktriangleright$}{.5em}{}[]
+\titleformat{\subsubsection}[runin]{\itshape}{$\triangledown$}{0.2em}{}[]
+
+\titlespacing{\section}{0em}{1em}{1em}
+\renewcommand{\maketitle}
+{
+	\begin{center}
+		{\huge\bfseries
+		\theauthor}
+	
+		\vspace{.2cm}
+		\href{mailto:petermanyara@outlook.com}{\ttfamily\color{blue!80!black!90}petermanyara@outlook.com}
+	\end{center}
+	
+}
+%\titleformat{command}[shape]{format}{label}{sep}{before-code}[after-code]
+\geometry{margin=1in}
 
 %opening
 \title{R\'esum\'e}
@@ -15,7 +38,6 @@
 %% B I O   D A T A %%%
 %%%%%%%%%%%%%%%%%%%%%%
 \section{Bio Data}
-
 \subsubsection{Date of Birth}
 2nd July 1996
 \subsubsection{Gender}
@@ -55,9 +77,9 @@ Highly skilled.
 
 \subsection{Programming}
 \subsubsection{Programming Languages}
-Python3, Octave, MATLAB, C++
+Python3, Octave, MATLAB, C++, Intel Assembly, C
 \subsubsection{Markup}
-\LaTeX, Markdown
+\LaTeX, Markdown, HTML
 \subsubsection{Graphics}
 Inkscape, AutoCAD, GIMP
 \subsubsection{Hardware}
@@ -87,6 +109,7 @@ Experience was gained in the following areas:
 \end{itemize}
 \subsubsection{Highlights}
 Improvised a draw-wire technique that reduced time and effort required in laying long stretches of armored cabling.
+
 Recommended a simplified wiring scheme to OEM\footnote{OCME Engineering} commissioning engineer to avoid working at height while integrating a non-OEM filling valve for OCME filling machine. Recommendation was adopted by the commissioning engineer.
 
 \subsection{Engineering Intern --- KPLC Lanet}
@@ -102,6 +125,7 @@ I gained experience by observing and participating in the following activities:
 \end{itemize}
 \subsubsection{Highlights}
 Participated in conversion of a 36kV CG\footnote{Crompton-Greaves} breaker's control circuitry to $110V_{AC}$ from $30V_{DC}$. This involved appropriation of components from older, decommissioned breakers.
+
 Drafted floor plans on AutoCAD for the conversion of the Lanet depot warehouse into E-Plant department's workshop.
 
 \subsection{Engineering Intern --- New KCC Nyahururu}
@@ -116,7 +140,9 @@ Experienced was gain through participation in the following activities:
 \end{itemize}
 \subsubsection{Highlights}
 Ammonia refrigeration plant maintenance. Involved constant replacement of ammonia gas cans.
+
 Diagnosis and repair of decommissioned homogenizer to working status. An undocumented maintenance action had left the oil pump reversed. The machine wouldn't start due to anomalous oil pressure readings.
+
 10,000th-hour service of TCA-200 packaging machine under supervision of a Tetra Pak Engineer.
 
 \subsection{Driver --- Jamhuri Farm}
@@ -128,7 +154,9 @@ April 2015 --- September 2015
 \end{itemize}
 \subsubsection{Highlights}
 First professional driving experience after acquisition of driver's license.
+
 Operation of combine harvester for 2015 wheat harvest season (CLAAS Mercator 75) under professional tutelage.
+
 Replacement of front axle of 4WD Massey Fergusson tractor.
 
 %%%%%%%%%%%%%%%%%%%%%%%%
@@ -196,6 +224,27 @@ A subject of constant interest. Stems from gaming as well.
 %% R E F E R E E S %%%
 %%%%%%%%%%%%%%%%%%%%%%
 \section{Referees}
+\subsection{Njeru S. Manegene}
+Lecturer,\\
+Department of Electrical and Electronics Engineering,\\
+Jomo Kenyatta University of Agriculture and Technology,\\
+P.O. Box 62000 --- 0020,\\
+Nairobi\\
+\href{mailto:smanegene@gmail.com}{\ttfamily\color{blue!80!black!90}smanegene@gmail.com}
 
+\subsection{Paul Makau}
+Managing Director,\\
+Electromag Engineering Limited,\\
+\href{mailto:pmakau@electromag.co.ke}{\ttfamily\color{blue!80!black!90}pmakau@electromag.co.ke}
+
+\subsection{Bisky I. Asyago}
+Electrical Plant Engineer,\\
+Kenya Power and Lighting Co. Ltd.,\\
+\href{mailto:BAsyago@kplc.co.ke}{\ttfamily\color{blue!80!black!90}BAsyago@kplc.co.ke}
+
+\subsection{Bernard Njoroge}
+Factory Engineer,\\
+New K.C.C. Limited,\\
+\href{mailto:info@newkcc.co.ke}{\ttfamily\color{blue!80!black!90}info@newkcc.co.ke}
 
 \end{document}
