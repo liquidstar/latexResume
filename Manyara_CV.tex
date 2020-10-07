@@ -1,12 +1,14 @@
-\documentclass[a4paper]{article}
+\documentclass[a4paper,10pt]{article}
 
 \usepackage{geometry}
 \usepackage{titlesec}
 \usepackage{titling}
 \usepackage{amssymb}
+\usepackage{amsmath}
 \usepackage{mathptmx}
 \usepackage[hidelinks]{hyperref}
 \usepackage{xcolor}
+\usepackage{wasysym, marvosym}
 
 \titleformat{\section}{\Large\scshape}{}{0em}{}[\titlerule]
 \titleformat{\subsection}{\bfseries\large}{\hspace{-1.2em}$\blacktriangleright$}{.5em}{}[]
@@ -16,16 +18,18 @@
 \renewcommand{\maketitle}
 {
 	\begin{center}
-		{\huge\bfseries
+		{\Large\bfseries
 		\theauthor}
 	
 		\vspace{.2cm}
-		\href{mailto:petermanyara@outlook.com}{\ttfamily\color{blue!80!black!90}petermanyara@outlook.com}
+		\Letter\hspace{.2cm}\href{mailto:petermanyara@outlook.com}{\ttfamily\color{blue!80!black!90}petermanyara@outlook.com}
+		
+		\phone\hspace{.2cm}\texttt{+254 702 672578}
 	\end{center}
 	
 }
 %\titleformat{command}[shape]{format}{label}{sep}{before-code}[after-code]
-\geometry{margin=1in}
+\geometry{margin=1.175in}
 
 %opening
 \title{R\'esum\'e}
@@ -52,9 +56,9 @@ English and Kiswahili (Written and spoken)
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Objectives}
 \begin{itemize}
-	\item To engage with professionals in science and engineering to gain skill and experience.
-	\item To apply skills gained in improvement of production.
-	\item To come up with solutions that can make a difference in the world. 
+	\item To successfully transfer any attained skills into production.
+	\item To advance my skills to the cutting edge of technology.
+	\item To attain complete computing and technological fluency.
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -69,95 +73,42 @@ I have a working knowledge of Raspberry Pi, ESP32 and Arduino prototyping boards
 
 \subsection{Computer Skills}
 \subsubsection{Microsoft Windows}
-Extensive experience in all GUI aspects. Basic proficiency with the command prompt. Better powershell proficiency.
+Beginner administrative skills from dabbling with enterprise security policies while interning at Laikipia University.
 \subsubsection{Linux}
-Formidable working precision with the terminal.
+Intermediate skill from self taught shell scripting, and offline installation of Arch Linux.
 \subsubsection{Microsoft Office}
-Highly skilled.
+Moderately skilled.
+\subsubsection{Graphics}
+Inkscape, AutoCAD, Blender.
 
 \subsection{Programming}
 \subsubsection{Programming Languages}
-Python3, Octave, MATLAB, C++, Intel Assembly, C
+Python3, Octave, MATLAB, Intel Assembly, Perl, Bash
 \subsubsection{Markup}
-\LaTeX, Markdown, HTML
-\subsubsection{Graphics}
-Inkscape, AutoCAD, GIMP
-\subsubsection{Hardware}
-Network configuration
+\LaTeX, HTML
+\subsubsection{Regular Expressions}
+Perl \texttt{regex}, POSIX extended \texttt{regex}
+%\subsubsection{Hardware}
+%Network configuration
 
-\subsection{Workshop Skills}
-\subsubsection{Metal Working}
-Arc Welding, Gas Welding, TIG Welding, Use of hand and machine tools.
-\subsubsection{Electricals}
-Installation (wall and overhead fixtures), Electrical machines: Transformers and Motors.
+%\subsection{Workshop Skills}
+%\subsubsection{Metal Working}
+%Arc Welding, Gas Welding, TIG Welding, Use of hand and machine tools.
+%\subsubsection{Electricals}
+%Installation (wall and overhead fixtures), Electrical machines: Transformers and Motors.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% E X P E R I E N C E S %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Experience}
-\subsection{Engineering Intern --- Electromag Engineering Ltd}
-August 2019 --- October 2019 (Fourth Year Industrial attachment)
-\subsubsection{Learning areas}
-Experience was gained in the following areas:
-\begin{itemize}
-	\item Workplace safety.
-	\item Cable laying and termination.
-	\item Automation of Lube blending and filling machines.
-	\item Installation of industrial sockets and HI-bay factory lighting.
-	\item Cable tray and cable trunk mounting.
-	\item Distribution board and consumer control unit termination.
-\end{itemize}
-\subsubsection{Highlights}
-Improvised a draw-wire technique that reduced time and effort required in laying long stretches of armored cabling.
-
-Recommended a simplified wiring scheme to OEM\footnote{OCME Engineering} commissioning engineer to avoid working at height while integrating a non-OEM filling valve for OCME filling machine. Recommendation was adopted by the commissioning engineer.
-
-\subsection{Engineering Intern --- KPLC Lanet}
-July 2018 --- October 2018 (Third Year Industrial attachment)
-\subsubsection{Learning areas}
-I gained experience by observing and participating in the following activities:
-\begin{itemize}
-	\item Grid monitoring via SCADA system.
-	\item Inspection of transmission pylons.
-	\item Scheduled maintenance of power transformer and on-load tap changer.
-	\item Functional testing of substation protection system.
-	\item Write-up of maintenance reports.
-\end{itemize}
-\subsubsection{Highlights}
-Participated in conversion of a 36kV CG\footnote{Crompton-Greaves} breaker's control circuitry to $110V_{AC}$ from $30V_{DC}$. This involved appropriation of components from older, decommissioned breakers.
-
-Drafted floor plans on AutoCAD for the conversion of the Lanet depot warehouse into E-Plant department's workshop.
-
-\subsection{Engineering Intern --- New KCC Nyahururu}
-July 2017 --- September 2017 (2nd Year Industrial attachment)
-\subsubsection{Learning Areas}
-Experienced was gain through participation in the following activities:
-\begin{itemize}
-	\item Scheduled service and maintenance of factory generator. Involved replacement of air, fuel and oil filters, functional test of changeover switch.
-	\item Monitoring and supervised operation of milk processing equipment. This includes pasteurizer, sterilizer and homogenizer.
-	\item Operation of packaging equipment. This involved replacement of the packaging reel and cleaning-in-place prior to operation or when milk product changed.
-	\item Boiler maintenance. This involved de-sooting (The boiler was a fire-in-tube type.)
-\end{itemize}
-\subsubsection{Highlights}
-Ammonia refrigeration plant maintenance. Involved constant replacement of ammonia gas cans.
-
-Diagnosis and repair of decommissioned homogenizer to working status. An undocumented maintenance action had left the oil pump reversed. The machine wouldn't start due to anomalous oil pressure readings.
-
-10,000th-hour service of TCA-200 packaging machine under supervision of a Tetra Pak Engineer.
-
-\subsection{Driver --- Jamhuri Farm}
-April 2015 --- September 2015
-\subsubsection{Responsibilities}
-\begin{itemize}
-	\item Daily delivery of fresh farm produce to hotels and resale points in Nyahururu town.
-	\item Maintenance and operation of farm machinery over the course of daily production.
-\end{itemize}
-\subsubsection{Highlights}
-First professional driving experience after acquisition of driver's license.
-
-Operation of combine harvester for 2015 wheat harvest season (CLAAS Mercator 75) under professional tutelage.
-
-Replacement of front axle of 4WD Massey Fergusson tractor.
+%%%%%%%%%%%%%%%%%%%%%
+%% P R O J E C T S %%
+%%%%%%%%%%%%%%%%%%%%%
+\section{Projects}
+\subsection{LED display driver using Raspberry Pi}
+This was to satisfy the requirements of a unit on visual display systems. It contributed greatly to my knowledge of the GNU/Linux ecosystem and proficiency in python3.
+\subsection{Model Elevator controller using Intel 8086 $\mu$P}
+This was to satisfy the requirements of a unit on microprocessors. Intel assembly language was used.
+\subsection{Software Defined Radio}
+This is my finalist project. The result is a software mold of any OFDM based system (such as Wi-Fi and 5G) with programmable parameters from which error rate performance curves can be estimated. Implemented in MATLAB.
+\subsection{Home Energy Audit}
+This project's purpose was facilitate telemetry on power consumption in production facilities at home: dairy and garage. It was implemented in Arduino C. As a direct consequence an illegal tap was discovered.
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %% E D U C A T I O N %%%
@@ -175,8 +126,81 @@ Certified Public Accountant I
 2011 --- 2014
 Kenya Certificate of Secondary Education (A)
 \subsection{Riverbank Academy}
+2003 --- 2010
 Kenya Certificate of Primary Education (A)
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% E X P E R I E N C E S %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+\subsection{Engineering Intern --- Electromag Engineering Ltd}
+August 2019 --- October 2019 (Fourth Year Industrial attachment)
+%\subsubsection{Learning areas}
+%Experience was gained in the following areas:
+%\begin{itemize}
+%	\item Workplace safety.
+%	\item Cable laying and termination.
+%	\item Automation of Lube blending and filling machines.
+%	\item Installation of industrial sockets and HI-bay factory lighting.
+%	\item Cable tray and cable trunk mounting.
+%	\item Distribution board and consumer control unit termination.
+%\end{itemize}
+\subsubsection{Highlights}
+Improvised a draw-wire technique that reduced time and effort required in laying long stretches of armored cabling.
+
+Recommended a simplified wiring scheme to OEM\footnote{OCME Engineering} commissioning engineer to avoid working at height while integrating a non-OEM filling valve for OCME filling machine. Recommendation was adopted by the commissioning engineer.
+
+\subsection{Engineering Intern --- KPLC Lanet}
+July 2018 --- October 2018 (Third Year Industrial attachment)
+%\subsubsection{Learning areas}
+%I gained experience by observing and participating in the following activities:
+%\begin{itemize}
+%	\item Grid monitoring via SCADA system.
+%	\item Inspection of transmission pylons.
+%	\item Scheduled maintenance of power transformer and on-load tap changer.
+%	\item Functional testing of substation protection system.
+%	\item Write-up of maintenance reports.
+%\end{itemize}
+\subsubsection{Highlights}
+Participated in conversion of a 36kV CG\footnote{Crompton-Greaves} breaker's control circuitry to $110V_{AC}$ from $30V_{DC}$. This involved appropriation of components from older, decommissioned breakers.
+
+Drafted floor plans on AutoCAD for the conversion of the Lanet depot warehouse into E-Plant department's workshop.
+
+\subsection{Engineering Intern --- New KCC Nyahururu}
+July 2017 --- September 2017 (2nd Year Industrial attachment)
+%\subsubsection{Learning Areas}
+%Experienced was gain through participation in the following activities:
+%\begin{itemize}
+%	\item Scheduled service and maintenance of factory generator. Involved replacement of air, fuel and oil filters, functional test of changeover switch.
+%	\item Monitoring and supervised operation of milk processing equipment. This includes pasteurizer, sterilizer and homogenizer.
+%	\item Operation of packaging equipment. This involved replacement of the packaging reel and cleaning-in-place prior to operation or when milk product changed.
+%	\item Boiler maintenance. This involved de-sooting (The boiler was a fire-in-tube type.)
+%\end{itemize}
+\subsubsection{Highlights}
+Ammonia refrigeration plant maintenance. Involved constant replacement of ammonia gas cans.
+
+Diagnosis and repair of decommissioned homogenizer to working status. An undocumented maintenance action had left the oil pump reversed. The machine wouldn't start due to anomalous oil pressure readings.
+
+10,000th-hour service of TCA-200 packaging machine under supervision of a Tetra Pak Engineer.
+
+%\subsection{Driver --- Jamhuri Farm}
+%April 2015 --- September 2015
+%%\subsubsection{Responsibilities}
+%%\begin{itemize}
+%%	\item Daily delivery of fresh farm produce to hotels and resale points in Nyahururu town.
+%%	\item Maintenance and operation of farm machinery over the course of daily production.
+%%\end{itemize}
+%\subsubsection{Highlights}
+%First professional driving experience after acquisition of driver's license.
+
+%Operation of combine harvester for 2015 wheat harvest season (CLAAS Mercator 75) under professional tutelage.
+
+%Replacement of front axle of 4WD Massey Fergusson tractor.
+
+\subsection{IT intern --- Laikipia University}
+August 2012 (High School Volunteering Program)
+\subsubsection{Highlights}
+Got extensive experience troubleshooting MS Windows XP and Windows 7. Learned the value of software documentation while troubleshooting VBA macros.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% P R O F E S S I O N A L   M E M B E R S H I P %%%
@@ -186,7 +210,6 @@ Kenya Certificate of Primary Education (A)
 Presently a student member of the Institute of Electrical and Electronics Engineers.
 \subsection{IEEE Societes}
 \begin{itemize}
-	\item Power and Energy Society
 	\item Computer Society
 	\item Industry Applications Society
 	\item Special Interest Group on Humanitarian Technology.
@@ -206,45 +229,45 @@ Presently a student member of the Institute of Electrical and Electronics Engine
 %%%%%%%%%%%%%%%%%%%%
 %% H O B B I E S %%%
 %%%%%%%%%%%%%%%%%%%%
-\section{Hobbies}
-\subsubsection{Reading}
-Sci-Fi, Biographical non-fiction, occasional technical literature.
-\subsubsection{Programming}
-Proficient in python3 (used for hackathons), Linux shell, C++ (currently re-learning), once used Java, C and Intel assembly for coursework.
-\subsubsection{Traveling}
-A very handy application of my driving skills and temperament.
-\subsubsection{Cycling}
-Better than walking.
-\subsubsection{Gaming}
-Gaming on PC kindled my love for technology.
-\subsubsection{Computer graphics}
-A subject of constant interest. Stems from gaming as well.
+%\section{Hobbies}
+%\subsubsection{Reading}
+%Sci-Fi, Biographical non-fiction, occasional technical literature.
+%\subsubsection{Programming}
+%Intermediate proficiency in python3 (used for hackathons), Linux shell, C++. Familiar with Java, C and Intel assembly (used to complete coursework projects).
+%\subsubsection{Traveling}
+%A very handy application of my driving skills and temperament.
+%\subsubsection{Cycling}
+%Better than walking.
+%\subsubsection{Gaming}
+%Gaming on PC kindled my love for technology.
+%\subsubsection{Computer graphics}
+%A subject of constant interest. Stems from gaming as well.
 
 %%%%%%%%%%%%%%%%%%%%%%
 %% R E F E R E E S %%%
 %%%%%%%%%%%%%%%%%%%%%%
-\section{Referees}
-\subsection{Njeru S. Manegene}
-Lecturer,\\
-Department of Electrical and Electronics Engineering,\\
-Jomo Kenyatta University of Agriculture and Technology,\\
-P.O. Box 62000 --- 0020,\\
-Nairobi\\
-\href{mailto:smanegene@gmail.com}{\ttfamily\color{blue!80!black!90}smanegene@gmail.com}
+%\section{Referees}
+%\subsection{Njeru S. Manegene}
+%Lecturer,\\
+%Department of Electrical and Electronics Engineering,\\
+%Jomo Kenyatta University of Agriculture and Technology,\\
+%P.O. Box 62000 --- 0020,\\
+%Nairobi\\
+%\href{mailto:smanegene@gmail.com}{\ttfamily\color{blue!80!black!90}smanegene@gmail.com}
 
-\subsection{Paul Makau}
-Managing Director,\\
-Electromag Engineering Limited,\\
-\href{mailto:pmakau@electromag.co.ke}{\ttfamily\color{blue!80!black!90}pmakau@electromag.co.ke}
+%\subsection{Paul Makau}
+%Managing Director,\\
+%Electromag Engineering Limited,\\
+%\href{mailto:pmakau@electromag.co.ke}{\ttfamily\color{blue!80!black!90}pmakau@electromag.co.ke}
 
-\subsection{Bisky I. Asyago}
-Electrical Plant Engineer,\\
-Kenya Power and Lighting Co. Ltd.,\\
-\href{mailto:BAsyago@kplc.co.ke}{\ttfamily\color{blue!80!black!90}BAsyago@kplc.co.ke}
+%\subsection{Bisky I. Asyago}
+%Electrical Plant Engineer,\\
+%Kenya Power and Lighting Co. Ltd.,\\
+%\href{mailto:BAsyago@kplc.co.ke}{\ttfamily\color{blue!80!black!90}BAsyago@kplc.co.ke}
 
-\subsection{Bernard Njoroge}
-Factory Engineer,\\
-New K.C.C. Limited,\\
-\href{mailto:info@newkcc.co.ke}{\ttfamily\color{blue!80!black!90}info@newkcc.co.ke}
+%\subsection{Bernard Njoroge}
+%Factory Engineer,\\
+%New K.C.C. Limited,\\
+%\href{mailto:info@newkcc.co.ke}{\ttfamily\color{blue!80!black!90}info@newkcc.co.ke}
 
 \end{document}
