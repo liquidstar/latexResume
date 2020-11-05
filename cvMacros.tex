@@ -1,7 +1,8 @@
 % = = = = = = = = = = = = = = = = = = = =
 % = Preamble things
 %
-\definecolor{rosiegreen}{HTML}{1F9E76}
+%\definecolor{colorful}{HTML}{1F9E76}
+\definecolor{colorful}{HTML}{1F7E9E}
 \definecolor{slightgrey}{HTML}{686868}
 % Owner name
 \newcommand{\myName}[1]
@@ -14,7 +15,7 @@
 % Owner current occupation
 \newcommand{\myOccupation}[1]
 {
-	{\color{rosiegreen}\large #1}\\[5pt]
+	{\color{colorful}\large #1}\\[5pt]
 }
 % Generic contact sym and info
 \newcommand{\contactBlip}[2]
@@ -22,16 +23,16 @@
 	#1\hspace{0.25cm} {\small #2} \hspace{0.5cm}
 }
 % Specific contacts
-\newcommand{\myEmail}[1]{\contactBlip{\faEnvelope}{#1}}
+\newcommand{\myEmail}[1]{\contactBlip{\faEnvelope}{\href{mailto:#1}{#1}}}
 \newcommand{\myPhone}[1]{\contactBlip{\faMobile}{#1}}
 \newcommand{\myLocation}[1]{\contactBlip{\faMapMarker}{#1}}
-\newcommand{\myLinkedin}[1]{\contactBlip{\faLinkedin}{#1}}
-\newcommand{\myGithub}[1]{\contactBlip{\faGithub}{#1}}
+\newcommand{\myLinkedin}[1]{\contactBlip{\faLinkedin}{\href{https://www.#1}{#1}}}
+\newcommand{\myGithub}[1]{\contactBlip{\faGithub}{\href{https://www.#1}{#1}}}
 % Contact information
 \newcommand{\myContacts}[1]
 {
 	\begin{center}
-	\noindent\centerline{\fcolorbox{white}{rosiegreen}{
+	\noindent\centerline{\fcolorbox{white}{colorful}{
 		\begin{minipage}{\textwidth}
 			\color{white}
 			\vspace{5pt}
@@ -46,7 +47,7 @@
 % Skills in colored boxes
 \newcommand{\skill}[1]
 {
-	\tcbset{colframe=white,colback=rosiegreen,colupper=white,left=1mm,right=1mm,top=0.5mm,bottom=0.5mm}
+	\tcbset{colframe=white,colback=colorful,colupper=white,left=1mm,right=1mm,top=0.5mm,bottom=0.5mm}
 	\resizebox{!}{!}{\tcbox{#1}}
 }
 % Interest box
@@ -58,7 +59,7 @@
 % Insert a capitalized section heading
 \newcommand{\cvSection}[1]
 {
-	\noindent{\Large\color{rosiegreen}\bfseries #1}
+	\noindent{\Large\color{colorful}\bfseries #1}
 	\vspace{0.25cm}\\
 }
 % Regular text, but with additional whitespace under
@@ -69,12 +70,12 @@
 % Pro level header for recruiter focus
 \newcommand{\cvBoldSubsection}[3]
 {
-	\noindent{\large\bfseries#1}\\{#2}\\{\color{rosiegreen}\itshape\small#3}\\[5pt]
+	\noindent{\large\bfseries#1}\\{#2}\\{\color{colorful}\itshape\small#3}\\[5pt]
 }
 % Like a list, but less elegant
 \newcommand{\bulletpoint}[1]
 {
-	\noindent{\color{rosiegreen}\scriptsize\Circpipe}\hspace{0.2cm}
+	\noindent{\color{colorful}\scriptsize\Circpipe}\hspace{0.2cm}
 	\begin{minipage}[t]{0.9\textwidth}
 		\raggedright
 		\small{#1}

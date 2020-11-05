@@ -1,0 +1,141 @@
+\documentclass[10pt]{article}
+
+\usepackage{lmodern}
+\usepackage[default]{cantarell}
+\usepackage{xcolor}
+\usepackage[margin=0in]{geometry}
+\usepackage{fontawesome}
+\usepackage{tcolorbox}
+\usepackage{marvosym}
+\usepackage[hidelinks]{hyperref}
+
+\input{cvMacros.tex}
+
+\begin{document}
+% - - - - - - - - - - - - - - - - - - - -
+% P r e a m b l e
+%
+\begin{center}
+\begin{minipage}{0.92\textwidth}
+	\raggedright
+		\myName{Peter Manyara}
+		\myOccupation{Electrical and Electronics Engineering Student}
+		% Summary
+		\normalsize{A fifth year student pursuing Electrical and Electronics Engineering with skills and an understanding of how to apply engineering knowledge. An enthusiastic and motivated individual who is committed to a career in the engineering field.}
+\end{minipage}
+\end{center}
+
+\myContacts{
+	\myEmail{petermanyara@outlook.com}
+	\myPhone{+254702672578} 
+	\myGithub{github.com/liquidstar}
+	\myLinkedin{linkedin.com/in/peter-manyara}
+}
+
+% - - - - - - - - - - - - - - - - - - - -
+\begin{center}
+	% - - - - - - - - - - - - - - - - - - - -
+	% Left Column
+	%
+	\begin{minipage}[t]{0.45\textwidth}
+		\vspace{0.2cm}
+		\raggedright
+		%_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+		\cvSection{EDUCATION}
+		% = = = = = = = = = =
+		\cvBoldSubsection{Study Program}{Jomo Kenyatta University of Agriculture and Technology}{08/2015 - Present}
+		\bulletpoint{B.Sc. Electrical and Electronics Engineering}
+		\descr{Expected graduation 12/2020}
+		\vspace{0.3cm}
+
+		%_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+		\cvSection{WORK EXPERIENCE}
+		% = = = = = = = = = =
+		\cvBoldSubsection{Engineering Intern}{Electromag Engineering Ltd.}{08/2019 -- 11/2019}
+		\cvSubsection{Achievements/Tasks}
+			\bulletpoint{TOTAL\textregistered\ Occupational Health and Safety induction training.}
+			\bulletpoint{Pakscan\textregistered\ pump and valve controller network.}
+			\bulletpoint{Wiring of power and control infrastructure for OCME\textregistered\ filling machines.}
+			\bulletpoint{AC motor starters. e.g. DOL, $Y$ -- $\Delta$.}
+			\bulletpoint{High voltage protection devices e.g. VCB, OCB, ACB and SF6 breakers.}
+		\vspace{0.3cm}
+
+		% = = = = = = = = = =
+		\cvBoldSubsection{E--Plant and Protection Intern}{Kenya Power and Lighting Co.}{07/2018 - 10/2018}
+		\cvSubsection{Achievements/Tasks}
+			\bulletpoint{Scheduled maintenance of power transformers in substations within the Central Rift region. Up to 10~MVA.}
+			\bulletpoint{Functional testing of substation protection systems e.g. Instrumentation transformers \& relays.}
+			\bulletpoint{Design and development of Lanet E--Plant (Electrical Plant) reclamation project using AutoCAD\textregistered\ diagramming.}
+			\bulletpoint{Ability to author concise maintenance and action reports for efficient archiving or candid escalation of technical issues.}
+			\bulletpoint{Working with regional control to facilitate safe switching and thus minimize system downtime during maintenance.}
+			\vspace{0.3cm}
+
+		%_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+		\cvSection{CERTIFICATES}
+			\cvSubsection{Visual Basic .NET}
+			\cvSubsection{Microsoft Cerfification: Azure Fundamentals}
+			\cvSubsection{International Computer Driving License}
+	\end{minipage}
+	\hspace{5pt}
+	% - - - - - - - - - - - - - - - - - - - -
+	% Right Column
+	%
+	\begin{minipage}[t]{0.45\textwidth}
+		\vspace{0.2cm}
+		\raggedright
+		%_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+		\cvSection{SKILLS}
+			\skill{Python}
+			\skill{Perl}
+			\skill{Regex}
+			\skill{Bash}
+			\skill{Arduino}
+			\skill{C++}
+			\skill{C}
+			\skill{x86 Assembly}
+			\skill{Multisim}
+			\skill{\LaTeX}
+			\skill{\faGit}
+			\skill{Embedded Systems}
+			\skill{Matlab}
+			\skill{AutoCAD}
+			\vspace{0.5cm}
+
+		%_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+		\cvSection{PERSONAL PROJECTS}
+		% = = = = = = = = = =
+		\cvSubsection{Final Year Project}
+			\bulletpoint{Simulation of BER for OFDM variant in a fading channel. MATLAB}
+		% = = = = = = = = = =
+		\cvSubsection{Internet Connected LED Billboard using Raspberry Pi}
+			\bulletpoint{LED billboard controller using hzeller/rpi-rgb-led-matrix library and remote login via SSH. Bash, Python, C, git}
+		% = = = = = = = = = =
+		\cvSubsection{Elevator controller based on Intel 8086 $\mu$P}
+			\bulletpoint{A motor actuator that determines the carriage position by prodigious use of limit switches. x86 Assembly, Bash.}
+		\cvSubsection{IoT actuator using ESP32}
+			\bulletpoint{An internet connected controller for an irrigation valve actuator. Arduino, C}
+			\vspace{0.5cm}
+
+		%_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+		\cvSection{ACTIVITIES}
+		% = = = = = = = = = =
+		\cvSubsection{SIGHT IEEE Jomo Kenyatta University Student Branch -- Secretary (08/2019 - 08/2020)}
+		\descr{Planning activities while ensuring nominal functioning of the interest group while bridging the students branch with Kenya Section.}
+		% = = = = = = = = = =
+		\cvSubsection{Society of Engineering Students -- Projects Chair (04/2018 - 04/2019)}
+		\descr{Coordinating the society's showcase project teams while providing training for new members in embedded electronics and programming.}
+		\vspace{0.5cm}
+		%_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+		\cvSection{INTERESTS}
+			\interest{DevOps}
+			\interest{GNU/Linux}
+			\interest{Hardware}
+			\interest{CAD}
+			\interest{Mentorship}
+			\interest{Humanitarian Activities}
+			\interest{Financial Services}
+			\interest{Renewable Energy}
+			\interest{Telecommunication}
+	\end{minipage}
+\end{center}
+\end{document}
